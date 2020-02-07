@@ -4,6 +4,13 @@
     <string name="add_a_new_employee">Add a new Employee</string>
     <string name="enter_employee_salary">Enter Employee Salary</string>
     <string name="view_employees">view Employees</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="employee_salary">Employee Salary</string>
+    <string name="joining_date">Joining Date</string>
+    <string name="employee_dept">Employee Dept.</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="employee_id">Employee ID</string>
 
     <array name="departments">
 

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/employee_id"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            ></TextView>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="default"
+            android:textColor="@android:color/holo_blue_light"
+            android:id="@+id/emp_id"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            ></TextView>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/employee_name"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            ></TextView>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="default"
+            android:textColor="@android:color/holo_blue_light"
+            android:id="@+id/emp_name"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/employee_dept"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            ></TextView>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="default"
+            android:textColor="@android:color/holo_blue_light"
+            android:id="@+id/emp_dept"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/joining_date"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            ></TextView>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="default"
+            android:textColor="@android:color/holo_blue_light"
+            android:id="@+id/emp_date"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/employee_salary"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            ></TextView>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="default"
+            android:textColor="@android:color/holo_blue_light"
+            android:id="@+id/emp_salary"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            ></TextView>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_edit"
+        android:text="@string/edit"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:textColor="@android:color/background_light"></Button>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_delete"
+        android:text="@string/delete"
+        android:background="@android:color/holo_red_dark"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:textColor="@android:color/background_light"></Button>
+
+
+</LinearLayout>

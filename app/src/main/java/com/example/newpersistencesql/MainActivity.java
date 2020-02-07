@@ -2,6 +2,7 @@ package com.example.newpersistencesql;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
@@ -65,6 +66,10 @@ createTable();
 
                 break;
             case R.id.tvViewEmployee:
+                Intent myintent = new Intent(v.getContext(), EmployeeActivity.class);
+                //myintent.putExtra("empobject", employee);
+                //myintent.putExtra("empindex",position);
+                v.getContext().startActivity(myintent);
                 //start activity to another activity to see the list of employees
                 break;
         }
