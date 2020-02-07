@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">newPersistenceSQL</string>
+    <string name="select_department">Select Department</string>
+    <string name="add_a_new_employee">Add a new Employee</string>
+    <string name="enter_employee_salary">Enter Employee Salary</string>
+    <string name="view_employees">view Employees</string>
+
+    <array name="departments">
+
+        <item>Technical</item>
+        <item>Marketing</item>
+        <item>Human Resource</item>
+        <item>Research</item>
+        <item>Support</item>
+        <item>Customer Service</item>
+        <item>General Operations</item>
+
+    </array>
+</resources>
