@@ -47,7 +47,12 @@ public class EmployeeActivity extends AppCompatActivity {
             }while (cursor.moveToNext());
             cursor.close();
 
+
             //show items in a list view
+
+            EmployeeAdapter employeeAdapter = new EmployeeAdapter( this, R.layout.list_layout_employee, employeeList,mDatabase );
+            employeeAdapter.notifyDataSetChanged();
+            listView.setAdapter( employeeAdapter );
 
 
         }

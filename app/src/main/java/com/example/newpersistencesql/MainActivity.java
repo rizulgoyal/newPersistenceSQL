@@ -84,7 +84,7 @@ createTable();
 
         //calendar
         Calendar calendar = Calendar.getInstance();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat( "YYY MM DD hh:mm:ss" );
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat( "YYY MM dd hh:mm:ss" );
         String joiningDate = simpleDateFormat.format( calendar.getTime() );
 
         if(name.isEmpty())
